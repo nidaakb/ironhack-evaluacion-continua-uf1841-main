@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.pricing__basico {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+}
+
+h3 {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.pricing__basico_price {
+    background-color: gray;
+}

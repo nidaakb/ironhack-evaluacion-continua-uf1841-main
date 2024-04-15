@@ -10,7 +10,6 @@
             width: 400px;
             height: 400px;
             background-color: #ffffff;
-
             text-align: center;
             margin: 20px auto;
             position: relative;
@@ -29,14 +28,31 @@
 <body>
     <div class="container">
         <h2>Completa el formulario</h2>
-        <form action="#" method="" class="form" id="shirt-form">
+        <form action="https://request-data.onrender.com/register-tshirt" method="post" class="form" id="shirt-form">
+
             <div class="form-group">
                 <label for="words">Texto (máximo 10 caracteres):</label>
-                <input type="text" id="words" name="words" required>
+                <input type="text" id="words" name="words" maxlength="10" required>
             </div>
+
+            <div class="form-group">
+                <label for="color">Color preferido: </label>
+                <input type="color" id="color" name= "color" value="#fff" required> 
+            </div>
+
+            <div class="form-group">
+                <label for="size">Tamaño de camiseta: </label>
+                <select id="size" name="size" required>
+                    <option value="small">S</option>
+                    <option value="medium"selected>M</option>
+                    <option value="large">L</option>
+                </select>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Enviar">
             </div>
+
         </form>
     </div>
 
