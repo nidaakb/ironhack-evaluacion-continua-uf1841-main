@@ -2,14 +2,15 @@
     box-sizing: border-box;
 }
 
+
 .pricing, .pricing__box {
     display: block;
     float: left;
     justify-content: center;
     background-color: white;
-    padding: 5px;
-    width: 230px;
-}    
+    padding: 8px;
+    width: 300px;
+}  
 
 .pricing:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
@@ -56,13 +57,10 @@
     margin: 0;
 }
 
-
 p {
     text-align: center;
     font-size: 14px;
 }
-
-
 
 .button {
     background-color: #6868AC ;
@@ -70,3 +68,6 @@ p {
     text-decoration: none;
     padding: 8px 20px;
 }
+
+
+
