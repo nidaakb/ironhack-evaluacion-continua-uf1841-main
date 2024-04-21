@@ -2,20 +2,54 @@
     box-sizing: border-box;
 }
 
-.pricing__basico {
-    display: flex;
+.pricing, .pricing__box {
+    display: block;
+    float: left;
     justify-content: center;
-    flex-direction: column;
     background-color: white;
-    border: 1px solid black;
+    padding: 5px;
+    width: 230px;
+}    
+
+.pricing:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 
-h3 {
+.pricing__box:hover {
+    box-shadow: 0 8px 12px 0 rgb(104,104,171, 0.8);
+}
+
+.pricing__basico, .pricing__pro, .pricing__premium {
+    border: 1px solid #eeee;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing__basico_name, .pricing__pro_name , .pricing__premium_name {
     background-color: black;
-    width: 100%;
     color: white;
+    font-size: 20px;
+    padding: 1rem;
+    margin: 0;
 }
 
-.pricing__basico_price {
-    background-color: gray;
+.pricing__basico_price, .pricing__pro_price , .pricing__premium_price {
+    background-color: #eeee; 
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+
+.button {
+    background-color: #6868AC ;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
 }
