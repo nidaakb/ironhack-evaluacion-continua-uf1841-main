@@ -19,6 +19,22 @@
     box-shadow: 0 8px 12px 0 rgb(104,104,171, 0.8);
 }
 
+.pricing p {
+    border-bottom: 1px solid #eeee;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    font: 14px;
+}
+
+.pricing__box p{
+    border-bottom: 1px solid #eeee;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    font: 14px;
+}
+
 .pricing__basico, .pricing__pro, .pricing__premium {
     border: 1px solid #eeee;
     margin: 0;
@@ -40,11 +56,12 @@
     margin: 0;
 }
 
+
 p {
     text-align: center;
     font-size: 14px;
-    padding: 0.5rem;
 }
+
 
 
 .button {
